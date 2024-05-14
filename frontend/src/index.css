@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  
+  .submitBtn {
+    @apply px-16 py-2 h-14 max-lg:h-9 mt-6 w-full text-xl max-sm:text-base font-bold leading-6 text-white bg-slate-300 rounded-3xl border border-sky-200  hover:bg-sky-300 active:bg-sky-500 cursor-pointer;
+  }
+
+  .inputField {
+    @apply my-3 rounded-3xl border border-sky-300 max-lg:h-9 h-14 w-full px-2;
+  }
+
+  .section-name {
+    @apply font-bold my-8 text-3xl max-sm:text-2xl;
+  }
+
+  .map-input {
+    @apply h-10 text-lg max-sm:text-base border border-transparent border-b-stone-400 focus:outline-slate-300;
+  }
+
+  .eventtitle-with-bg {
+    @apply absolute bottom-0 left-0 right-0 h-1/2 max-sm:h-1/2 bg-white bg-opacity-70 flex justify-center items-center;
+  }
+
+  .search-btn {
+    @apply h-14 text-white text-xl font-medium border rounded-full bg-slate-400 px-6 hover:bg-sky-400 active:bg-sky-600 max-sm:text-base max-sm:px-3 cursor-pointer;
+  }
+
+  .event-info-div {
+    @apply rounded-xl h-32 p-5 max-lg:p-2 max-lg:text-base text-lg font-medium flex items-center justify-center shadow-md shadow-gray-300;
+  }
+
+  .turn-left-arrow {
+    @apply bg-gray-200 bg-opacity-50 rounded-xl h-2/3 w-12 max-lg:w-8 absolute top-1/4 left-4 flex justify-center items-center hover:bg-sky-100 active:bg-sky-200;
+  }
+
+  .turn-right-arrow {
+    @apply bg-gray-200 bg-opacity-50 rounded-xl h-2/3 w-12 max-lg:w-8 absolute top-1/4 right-6 flex justify-center items-center hover:bg-sky-100 active:bg-sky-200;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-indigo-200 from-10% via-sky-200 via-30% to-emerald-200 to-90%;
+  }
+
+  .bounce {
+    @apply animate-bounce focus:animate-none hover:animate-none inline-flex;
+  }
+
+  .animate-scale {
+    animation: scaleAnimation 0.5s ease infinite alternate;
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Architects Daughter", system-ui, sans-serif;
+  }
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
