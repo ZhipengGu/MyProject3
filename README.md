@@ -1,8 +1,8 @@
 # MyProject3
 
-<img src="./group-image/Happy Hippos Project.png" alt="Happy Hippos Project" style="zoom:30%;" />
 
-Our project, `Hippos!`, is a mobile-optimized web app for spontaneous activity organization when users want to connect with like-minded individuals nearby. Registered users can post real-time activity listings, turning last-minute plans into unforgettable experiences.
+
+This project, `Hippos!`, is a mobile-optimized web app for spontaneous activity organization when users want to connect with like-minded individuals nearby. Registered users can post real-time activity listings, turning last-minute plans into unforgettable experiences.
 
 Users can browse through a list or map view of what's happening in the next 24 hours in their nearby suburbs, including trending, nearby, and recommended activities. Each activity displays real-time participant numbers against the host's set maximum, giving hosts the flexibility to conclude as needed. By selecting `interested`, users who want to participate can express their interest and organize their schedule based on rising participation counts. Whether you're hosting or joining,  `Hippos!` makes it easy to create spontaneous and memorable experiences on the fly. 
 
